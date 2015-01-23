@@ -1,0 +1,18 @@
+
+
+.light-container{
+    width: 50px;
+    height: 50px;    
+}
+
+.light{
+    border-radius: 50%;
+    width:80%;
+    height:80%;
+    border: 1px solid black;
+    margin:0 auto;
+}
+
+.light.on{
+    background-color: red;
+}

@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Simple HTML5 / JS metronome</title>
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <!-- JS LIBs -->
+        <script language="javascript" type="text/javascript" src="js/lib/jquery-1.11.1.js"></script>
+        <script language="javascript" type="text/javascript" src="js/lib/bootstrap.min.js"></script>
+        <script language="javascript" type="text/javascript" src="js/lib/gibberish.min.js"></script>
+
+        <!-- JS MY -->
+        <script language="javascript" type="text/javascript" src="js/main.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3>Simple HTML5 / JS metronome - Gibberish.js</h3>
+                </div>
+            </div>
+            <hr/>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="light-container">
+                        <div class="light"></div>
+                    </div>
+                </div>
+            </div>
+            <hr/>
+            <div class="row">
+                <div class="col-md-4">
+                    <button class="btn btn-default" onclick="start()">start</button>
+                    <button class="btn btn-default" onclick="stop()">stop</button>
+                </div>
+                <div class="col-md-8">
+                    <div class="form-inline">
+                        <input class="form-control" type="text" id="tempo-input" value="120"/>
+                        <button class="btn btn-default" id="tempo-btn" onclick="changeTempo()">OK</button>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- /container -->  
+    </body>
+</html>
